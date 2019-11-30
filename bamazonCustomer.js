@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
 
 
 
-var displayItems = function () {
+function displayItems() {
     connection.query("SELECT * FROM products", function (err, results) {
 
         if (err) throw err;
@@ -78,6 +78,7 @@ var displayItems = function () {
                             item_id
                         ], function (err, results) { });
                     console.log("Your total for this item is: $" + (results[item_id - 1].price * answers.numberWanted))
+
                 }
             });
     })
