@@ -22,16 +22,18 @@ All files are pulling from a sample mySQL database and are updating the database
     
     Output: The system will ask the user to chose from a list of products available based on the items in the database mySQL
 
-    ![Results](/img/Prompts.PNG)
+![Results](/img/Prompts.PNG)
 
     Once the item is chosen the user is prompted for how many of that item they would like:
 
-    ![Results](/img/Prompt2.PNG)
+![Results](/img/Prompt2.PNG)
     
     Output: Finally, the display will show the total price of the items you have purchased and will update the inventory.
 
-    ![Results](/img/finalPrompt.png)
-    ![Results](/img/mySQL_After.png)
+![Results](/img/finalPrompt.png)
+
+
+![Results](/img/mySQL_After.png)
         
       
 ## TECHNOLOGIES USED
